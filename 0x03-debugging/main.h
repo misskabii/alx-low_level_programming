@@ -1,14 +1,8 @@
-#include "main.h"
+#ifndef "MAIN_H"
+# define "MAIN_H"
+#include <stdio.h>
 
-/**
- * main - Tests function that prints if integer is positive or negative
- * Return:0 success
- */
+void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
 
-int main(void)
-{
-	int i;
-	i = 0;
-	postitive_or_negative(i);
-	return(0);
-}	
+#endif
