@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main  - function that multiplies two integers
+ * main  - check the code
  *
  * Return:0 success
  */
