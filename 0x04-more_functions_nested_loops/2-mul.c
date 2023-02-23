@@ -1,14 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main  - check the code
+ * mul - Prints the digit
  *
- * Return:0 success
+ * @a: input number as an integer.
+ * @b: input number as an integer.
+ *
+ * Return: last digit.
  */
-int main(void)
+
+int mul(int a, int b)
 {
-	printf("%d\n", mul(98, 1024));
-	printf("%d\n", mul(-402, 4096));
-	return (0);
+	return (a * b);
 }
