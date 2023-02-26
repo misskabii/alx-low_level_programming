@@ -10,9 +10,9 @@ int num;
 
 	for(num = 0; num <= 9; num ++)
 	{
-	int num;
+
 	if(num != 2 && num != 4)
-	_putchar((num % 10) + '0');
+		_putchar(num + '0');
 	}
 
 	_putchar('\n');
