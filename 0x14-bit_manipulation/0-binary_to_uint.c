@@ -9,15 +9,15 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-    unsigned int result = 0;
-    const char *ptr;
+	unsigned int result = 0;
+	const char *ptr;
 
 	if (b == NULL)
 	return (0);
 
 	for (ptr = b; *ptr != '\0'; ptr++)
-	{	
-	if (*ptr != '0' && *ptr != '1')
+	{
+		if (*ptr != '0' && *ptr != '1')
 		return (0);
 	result = result * 2 + (*ptr - '0');
 	}
